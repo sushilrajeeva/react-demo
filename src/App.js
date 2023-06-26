@@ -5,6 +5,7 @@ import { Message } from "./components/Message";
 import { ClickHandler } from "./components/ClickHandler";
 import { ParentComponenet } from "./components/ParentComponenet";
 import { UserGreeting } from "./components/UserGreeting";
+import { NameList } from "./components/NameList";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <Message></Message> */}
       {/* <ClickHandler></ClickHandler> */}
       {/* <ParentComponenet></ParentComponenet> */}
-      <UserGreeting></UserGreeting>
+      {/* <UserGreeting></UserGreeting> */}
+      <NameList></NameList>
     </div>
   );
 }
