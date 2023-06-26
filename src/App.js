@@ -3,6 +3,7 @@ import "./App.css";
 import { Greet } from "./components/Greet.js";
 import { Message } from "./components/Message";
 import { ClickHandler } from "./components/ClickHandler";
+import { ParentComponenet } from "./components/ParentComponenet";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         This is the child props and marking end of the demo
       </Greet> */}
       {/* <Message></Message> */}
-      <ClickHandler></ClickHandler>
+      {/* <ClickHandler></ClickHandler> */}
+      <ParentComponenet></ParentComponenet>
     </div>
   );
 }
