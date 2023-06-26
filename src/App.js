@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Greet } from "./components/Greet.js";
 import { Message } from "./components/Message";
+import { ClickHandler } from "./components/ClickHandler";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Greet name="Vishal" value="5">
         This is the child props and marking end of the demo
       </Greet> */}
-      <Message></Message>
+      {/* <Message></Message> */}
+      <ClickHandler></ClickHandler>
     </div>
   );
 }
