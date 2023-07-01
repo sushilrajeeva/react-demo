@@ -8,6 +8,7 @@ import { UserGreeting } from "./components/UserGreeting";
 import { NameList } from "./components/NameList";
 import { Stylesheet } from "./components/Stylesheet";
 import { InLine } from "./components/InLine";
+import { Form } from "./components/Form";
 // import "./appStyles.css";
 // import styles from "./appStyles.module.css";
 import "./appStyles.css";
@@ -28,10 +29,11 @@ function App() {
       {/* <ParentComponenet></ParentComponenet> */}
       {/* <UserGreeting></UserGreeting> */}
       {/* <NameList></NameList> */}
-      <Stylesheet></Stylesheet>
+      {/* <Stylesheet></Stylesheet>
       <InLine></InLine>
       <h1 className="error">Error</h1>
-      <h1 className={styles.success}>Success</h1>
+      <h1 className={styles.success}>Success</h1> */}
+      <Form></Form>
     </div>
   );
 }
